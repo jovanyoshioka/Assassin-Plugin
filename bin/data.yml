@@ -1,0 +1,53 @@
+pendingcontracts:
+  employer:
+    - 'null'
+  assassin:
+    - 'null'
+  target:
+    - 'null'
+  reward:
+    - '-1'
+    
+activecontracts:
+  employer:
+    - 'null'
+  assassin:
+    - 'null'
+  target:
+    - 'null'
+  reward:
+    - '-1'
+  revealed:
+    - 'false'
+    
+completecontracts:
+  employer:
+    - 'null'
+  assassin:
+    - 'null'
+  target:
+    - 'null'
+  reward:
+    - '-1'
+  lost:
+    - 'false'
+
+listrestriction: 5   
+
+bounties:
+  target:
+    - 'null'
+  reward:
+    - '-1'
+
+minimumbounty: 1000
+    
+stats:
+  player:
+    - 'null'
+  assassinations:
+    - '-1'
+  counters:
+    - '-1'
+
+leaderboard: 5

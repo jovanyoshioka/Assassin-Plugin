@@ -1,0 +1,26 @@
+main: me.Jovan.Assassin.Main
+name: Assassin
+version: 1.0
+author: Jovan
+api-version: 1.15
+depend: [Essentials]
+
+commands:
+  assassin:
+    description: "Used to access general commands. Usage: /assassin <leaderboard/stats>"
+  hire:
+    description: "Hires assassin to kill a specified target. Usage: /hire <assassin> <target> <reward>"
+  hireaccept:
+    description: "Accepts a pending assassination contract. Usage: /hireaccept <employer> <target>"
+  hiredeny:
+    description: "Denies a pending assassination contract. Usage: /hiredeny <employer> <target>"
+  hirereveal:
+    description: "Reveals you as an assassin and your target. Usage: /hirereveal <target>"
+  hirecancel:
+    description: "Cancels a pending or active contract if you are the employer or assassin respectively. Usage: /hirecancel <employer> <target>"
+  hirelist:
+    description: "Lists all your pending, active, and complete contracts. Usage: /hirelist"
+  bounty:
+    description: "Places bounty on a target for anyone to kill. Usage: /bounty <target> <reward>"
+  bountylist:
+    description: "Lists all bounties including the targets and their respective rewards. Usage: /bountylist"
